@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-page{
+height: 700px;
+width: 100%;
+background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(./projectimage/pRQSWM.jpeg);
+background-repeat:no-repeat ;
+background-position: cover;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.login-text{
+    margin-left: 150px;
+    margin-bottom: 170px;
+}
+.login-text > .login-text1 > h1{
+    font-size: 4rem;
+    font-family: tahoma;
+    color: orangered;
+    margin-bottom: 10px;
+    
+}
+.login-text > .login-text2 > p{
+    font-size: 2rem;
+    width: 500px;
+    font-family: Arial, Helvetica, ;
+    
+}
+
+.login-card{
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    margin-right: 150px;
+    margin-bottom: 190px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+ .login-card input[type="email"]{
+     border: 1px solid lightgray;
+     width: 320px;
+     height: 40px;
+     border-radius: 8px;
+     color: lightblue;
+     margin-bottom: 10px;
+     
+     
+    
+    
+ }
+ .login-card input[type="email"]:focus{
+    border: 1px solid orangered;
+    border-radius: 8px;
+ }
+
+ .login-card input[type="password"]{
+    border: 1px solid lightgray;
+    width: 320px;
+    height: 40px;
+    border-radius: 8px;
+    color: lightgray;
+    margin-bottom: 10px;
+    
+    
+    
+     
+     
+ }
+ .login-card input[type="password"]:focus{
+    border: 1px solid orangered;
+    border-radius: 8px;
+
+
+ }
+ .btn{
+     width: 200px;
+     border-radius: 8px;
+     height: 40px;
+     border: 1px solid;
+     border: none;
+     background-color: orangered;
+     font-size: 1.5rem;
+     color: #ffff;
+     margin-bottom: 10px;
+     transition: 0.5s;
+ }
+ .btn:hover{
+     background-color: orange;
+ }
+ .input-link > a{
+     text-decoration: none;
+     color: orangered;
+     margin-bottom: 90px;
+ }
+  /* .btn1{
+    width: 150px;
+    border-radius: 8px;
+    height: 40px;
+    border: 1px solid;
+    border: none;
+    background-color: orange;
+    font-size: 1rem;
+    color: #ffff;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-color: orangered;
+}  */
+.btn1 button{
+    width: 150px;
+    border-radius: 8px;
+    height: 40px;
+    border: 1px solid;
+    border: none;
+    background-color: orange;
+    font-size: 1rem;
+    color: #ffff;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.btn1 button:hover{
+    background-color: orangered;
+} 
+.footer-container{
+    height: 400px;
+    width: 100%;
+   display: grid;
+   grid-template-columns: 2fr  1fr;
+    background: orangered;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.footer-item-1 > .item-1, .footer-item-2 > .item-2  {
+    margin: 20px 0px;
+    }
+    
+    .footer-item-1 > .item-1 > h2{
+        margin: 5px 0px;
+        
+    }
+    
+    .footer-item-1 > .item-1 > p{
+    line-height: 1.7;
+    }
+    
+    .social{
+        display: flex;
+        align-items: center;
+    }
+    .social:hover{
+        color: blue;
+    }
+    
+    .social > p{
+        margin-left: 10px;
+    }
+    .social > p a:hover{
+    color: #3490dc;
+    }
+    
+    .social > a:hover{
+        color: #3490dc;
+        }
+    
+    .p-item > p{
+        color: blue;
+
+    }
+    hr{
+ 
+        border: 0;
+        border-top: 1px solid rgba(192, 76, 76, 0.4);
+    }
+    
+    footer{
+        background:orangered;
+        
+    }
+    .footer-item-1{
+        margin-left: 70px;
+    }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
